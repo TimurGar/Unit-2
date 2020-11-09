@@ -27,6 +27,14 @@ We want to create a number counter that is looks like a palm. We will use 6 LEDs
 To conrol it, we will use 4 buttons and we are going to use Binary system to count. We are going to use wood and laser cutter to create the palm.
 
 
+## Criteria for Success
+1. Provides clear output(number) to the user by using LEDs(Usability)
+1. There are no bugs in the code
+1. User is be able to understand what number it is even in the darkness
+1. The main body of the project is made out of wood with the help of laser cutter.
+
+## Criteria B: Design
+The sketches of our idea:
 ![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803.JPG)
 
 ```.py
