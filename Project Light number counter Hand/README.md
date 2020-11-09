@@ -52,8 +52,7 @@ First, we created a truth table for the number counter.
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3807.jpg" height="700">
 
 Then based on the truth table, we created k-maps for each LEDs(A-E).
-<img src="IMG_3808.JPG" height="700">
-
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3808%20(1).JPG" height="700">
 ```.py
 unsigned long last_time;
 
