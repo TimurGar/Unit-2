@@ -40,6 +40,10 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 ### System diagram
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3827.JPG" alt = "System_diagram" width="700">
 
+### Flow diagram
+![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Project%20Light_Number_Counter_Kien%20and%20Timur.png)
+
+
 ```.py
 unsigned long last_time;
 
