@@ -34,8 +34,11 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 1. The main body of the project is made out of wood with the help of laser cutter.
 
 ## Criteria B: Design
-The sketches of our idea:
-![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803.JPG)
+### The sketches of our idea:
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803.JPG" alt = "The_sketches_of_our_idea" width="700">
+
+### System diagram
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3827.JPG" alt = "System_diagram" width="700">
 
 ```.py
 unsigned long last_time;
