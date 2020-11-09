@@ -46,6 +46,8 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 ### Design of a palm(circles represent LEDs)
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
 
+## Criteria C: Development
+
 
 ```.py
 unsigned long last_time;
