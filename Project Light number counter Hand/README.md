@@ -47,7 +47,12 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
 
 ## Criteria C: Development
+After we thought over of all the aspects of our idea we started realising it.
+First, we created a truth table for the number counter.
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3807.jpg" height="700">
 
+Then based on the truth table, we created k-maps for each LEDs(A-E).
+<img src="IMG_3808.JPG" height="700">
 
 ```.py
 unsigned long last_time;
