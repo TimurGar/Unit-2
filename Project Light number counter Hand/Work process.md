@@ -3,12 +3,29 @@ Created by Timur Garifullin and Kien Le Trung
 
 ## Criteria A: Planing
 ### Context of the problem
-In the Computer Science class we are now styding Data Representation topic. We have already learn how to work with Binary and Hexadecimal counting systems. 
-We've also learned about logic gates and k-maps. And now using the knowledge that we gathered from this Unit we need to create the project.
-Finished project should be able to show numbers 0-9 using only 7 LED, we should be able to use buttons to control the product. 
-Ex. I have 4 buttons and I press 3 of them, our project should be able to read and analyse the signal from the buttons 
-The boundaries for this project are following:
-* We need Arduino Uno(microcontroller), up to 7 LED lights and up to 4 buttons.
+In the Computer Science class we are styding Data Representation topic. We have already learned how to work with Binary and Hexadecimal counting systems. 
+We've also learned about logic gates and k-maps. And now using the knowledge that we gathered from this unit to crete a project.
+Finished project should be able to show numbers 0-9 using only 7 LED and by controlled by up to 4 buttons. 
+
+
+Example: I have 4 buttons and I press 3 of them, our project should be able to read and analyse the signal from the buttons and turn on correct LEDs.
+
+
+Our tasks for this project are following:
+* Use up to 7 LEDS and up to 4 buttons
+* Use Arduino(microcontroller)
+* Create a documentation on Github
+* Create sketches of ideas
+* Create Flow diagram
+* Create truth table
+* Create K-maps
+* We can also use laser cutter to create a body for our project
+
+### Justification of the solution
+
+We want to create a number counter that is looks like a palm. We will use 6 LEDs, each LED on each finger and the last one in the center of a palm. 
+To conrol it, we will use 4 buttons and we are going to use Binary system to count. We are going to use wood and laser cutter to create the palm.
+
 
 ![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803.JPG)
 
