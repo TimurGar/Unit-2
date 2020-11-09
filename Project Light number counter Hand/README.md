@@ -47,18 +47,19 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
 
 ## Criteria C: Development
+### Truth table
 After we thought over of all the aspects of our idea we started realising it.
 First, we created a truth table for the number counter.
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3807.jpg" height="700">
 
+### K-maps
 Then based on the truth table, we created K-maps for each LEDs(A-E).
 <img src="New%20IMG_3808.JPG" height="700">
 
+### Project circuit and code
 After that, we used equations that we got from K-maps to create a program for our project.
+To test if our program is working we assempled a circuit in TinkerCad and run the program there.
 <img src="Screen%20Shot%202020-11-09%20at%2019.09.09.png" weight="800">
-
-Next, we laser cutted the palm and assembled everthying.
-and this is our final product:
 
 ```.py
 unsigned long last_time;
@@ -130,4 +131,11 @@ void loop()
  Serial.println(eq_f); 
 }
 ```
-To test if our program is working we assempled a circuit in TinkerCad and run the program there.
+### Finished product
+Next, we laser cutted the palm and assembled everthying.
+and this is our final product:
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3857.JPG" width="700">
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3858.JPG" width="700">
+
+### Videos of working project
+[![](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](New_CS.mov)
