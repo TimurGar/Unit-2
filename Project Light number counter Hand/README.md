@@ -55,6 +55,11 @@ Then based on the truth table, we created K-maps for each LEDs(A-E).
 <img src="New%20IMG_3808.JPG" height="700">
 
 After that, we used equations that we got from K-maps to create a program for our project.
+<img src="Screen%20Shot%202020-11-09%20at%2019.09.09.png" weight="800">
+
+Next, we laser cutted the palm and assembled everthying.
+and this is our final product:
+
 ```.py
 unsigned long last_time;
 
