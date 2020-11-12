@@ -28,10 +28,10 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 
 
 ## Criteria for Success
-1. The display should count from 0-9
-1. The format of the number 0-9 is included
-1. Information indicating what the buttons do is included
-1. The display uses maximum 7 LEDs and 4 buttons
+1. The display should count from 0-9.
+1. A table showing each number 0-9 and the corresponding LEDs is included.
+1. A table showing the operations of the buttons and number 0-9 is included.
+1. The display uses maximum 7 LEDs and 4 buttons.
 1. The main body of the project is made out of wood with the help of laser cutter.
 
 ## Criteria B: Design
