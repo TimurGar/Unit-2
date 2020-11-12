@@ -28,9 +28,10 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 
 
 ## Criteria for Success
-1. Provides clear output(number) to the user by using LEDs(Usability)
-1. There are no bugs in the code
-1. User is be able to understand what number it is even in the darkness
+1. The display should count from 0-9
+1. The format of the number 0-9 is included
+1. Information indicating what the buttons do is included
+1. The display uses maximum 7 LEDs and 4 buttons
 1. The main body of the project is made out of wood with the help of laser cutter.
 
 ## Criteria B: Design
