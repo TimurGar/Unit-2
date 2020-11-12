@@ -47,6 +47,15 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 ### Design of a palm(circles represent LEDs)
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
 
+### Test plan
+| Criteria No. | Test                                                                                       | Expected outcome                                                                                                            | Criteria met? |
+|--------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------------|
+| Criteria 1   | Follow the table the number/LEDs equivalence  to check each number 0 to 9.                 | If you press the button's combination for number 0, the display shows the pattern  for number 0.  Ex: 0 -> Light A turns on |               |
+| Criteria 2   | A table is provided with LED sequences for each  number 0-9.                               | Reading the table the pattern  of LEDs for each number 0-9 is presented                                                     |               |
+| Criteria 3   | A table is provided with buttons(1-4) sequences for each  number 0-9.                      | Reading the table the pattern  of buttons(1-4) for each number  0-9 is presented.                                           |               |
+| Criteria 4   | Look at the project and  check if it has up no more than 7 LED and no more that 4 buttons. | The project supposed to have 6 LEDs and 4 buttons.                                                                          |               |
+| Criteria 5   | Check if the project's body is made out of wood.                                           | The project's body supposed  to be made out of wood.                                                                        |               |
+
 ## Criteria C: Development
 ### Truth table
 After we thought over of all the aspects of our idea we started realising it.
