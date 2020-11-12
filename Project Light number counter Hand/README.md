@@ -55,6 +55,9 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 | Criteria 3   | A table is provided with buttons(1-4) sequences for each  number 0-9.                      | Reading the table the pattern  of buttons(1-4) for each number  0-9 is presented.                                           |               |
 | Criteria 4   | Look at the project and  check if it has up no more than 7 LED and no more that 4 buttons. | The project supposed to have 6 LEDs and 4 buttons.                                                                          |               |
 | Criteria 5   | Check if the project's body is made out of wood.                                           | The project's body supposed  to be made out of wood.                                                                        |               |
+### A table showing the operations of the buttons and number 0-9
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
+
 
 ## Criteria C: Development
 ### Truth table
