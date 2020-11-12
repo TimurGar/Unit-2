@@ -148,6 +148,10 @@ and this is our final product:
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3858.JPG" width="700">
 
 ### Videos of working project
-[![](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.52.45.png)](New_CS.mov)
-[![](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.53.02.png)]IMG_3855.MOV)
+
+Day time test:
+https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.52.45.png
+
+Dark time test:
+https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.53.02.png
 
