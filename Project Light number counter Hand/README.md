@@ -150,8 +150,8 @@ and this is our final product:
 ### Videos of working project
 
 Day time test:
-https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.52.45.png
+https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/New_CS.mov
 
 Dark time test:
-https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2021.53.02.png
+https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3855.MOV
 
