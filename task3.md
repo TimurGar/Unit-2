@@ -11,3 +11,12 @@ while x**2 <= n:
     print(x**2, end=" ")
     x += 1    
 ```
+
+### Task: Least divisor
+```.py
+n = int(input())
+x = 2
+while n % x != 0:
+    x += 1
+print(x)
+```
