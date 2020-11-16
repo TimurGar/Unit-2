@@ -14,7 +14,7 @@ while x**2 <= n:
 
 ### Task: Least divisor
 ```.py
-n = int(input())
+n = int(input("Input your number: ))
 x = 2
 while n % x != 0:
     x += 1
