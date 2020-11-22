@@ -145,8 +145,11 @@ void loop()
 ```
 ### A table showing the operations of the buttons and number 0-9
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
-Fig. 8
+Fig.8 Instruction table showing customer how the LEDs are shown and which buttons to press to show them.
+
 # Criteria E: Evaluation
+
+
 | Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Criteria 1: See if our product count number 0-9.                                              | If you pressed the button's combination for a number,  the display shows a pattern for that number  (customers can do this while looking at our  "Button Operation Table") Ex: Click no buttons-> no light turned on (value=0); Click the green button-> turn on 1 light (value=1); Click the red button-> turn on 2 lights (value=2)... |   Yes            |
@@ -159,7 +162,10 @@ Fig. 8
 Next, we laser cutted the palm and assembled everthying.
 and this is our final product:
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3857.JPG" width="700">
+Fig.9 Front side picture of our program
+
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3858.JPG" width="700">
+Fig.10 Back side picture of our program
 
 ### Videos of working project
 
