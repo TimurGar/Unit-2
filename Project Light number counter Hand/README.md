@@ -46,7 +46,7 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 Fig.2 System digram of our program
 
 ### Flow diagram
-![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Project%20Light_Number_Counter_Kien%20and%20Timur%20(1)%20(1).png)
+![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Project%20Light_Number_Counter_Kien%20and%20Timur%20(2).png)
 Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 
 ### Truth table
