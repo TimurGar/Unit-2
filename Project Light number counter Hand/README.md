@@ -71,10 +71,11 @@ Fig.4 The sketch of a palm that we used to cut the palm on the laser cutter
 1st development story: -First, we tried to codes right after we finished drawing the product's sketches, flow diagram, truth table. However, we realized that we will need to write 9 if statements for the codes to work. So we then draw the K-maps to generate our product's system's boolean logic. We were then able to use the boolean logic to write our codes with 6 boolean statements. (not significantly less but lesser codes are always better :) Our codes are shown below:
 ```.py
 
-int button_x_port = 4; 
-int button_y_port = 5; 
-int button_z_port = 6; 
-int button_w_port = 7; 
+//All the int ... codes below register the port (the ports on Arduino) of each button and light
+int button_x_port = 4;
+int button_y_port = 5;
+int button_z_port = 6;
+int button_w_port = 7;
 
 int light_a = 13;
 int light_b = 8;
@@ -85,9 +86,10 @@ int light_f = 12;
 
 int button_x_value = 0;
 int button_y_value = 0;
-int button_z_value = 0; 
+int button_z_value = 0;
 int button_w_value = 0;
 
+//The codes below set up the OUTPUT of our devices, which are the 6 lights (a,b,c,d,e,f)
 void setup()
 {
   pinMode(light_a, OUTPUT);
@@ -95,18 +97,20 @@ void setup()
   pinMode(light_c, OUTPUT);
   pinMode(light_d, OUTPUT);
   pinMode(light_e, OUTPUT);
-  pinMode(light_f, OUTPUT); 
+  pinMode(light_f, OUTPUT);
   Serial.begin(9600);
 }
 
+//The codes in the void loop () contains the boolean logic behind different combinations of buttons and lights/LEDs.
 void loop()
 {
-  
+  //The codes below read the INPUT from the 4 buttons
   button_x_value = digitalRead(button_x_port);
   button_y_value = digitalRead(button_y_port);
   button_z_value = digitalRead(button_z_port);
   button_w_value = digitalRead(button_w_port);
-  
+ 
+ //The codes below show the boolean logic of each light (a,b,c,d,e,f)
  //a
  int eq_a = ((!button_y_value)&&(!button_z_value)&&(!button_w_value))||((button_x_value)&&(!button_y_value)&&(!button_z_value))||((!button_x_value)&&(button_y_value)&&(button_z_value));
   digitalWrite(light_a,eq_a);
@@ -114,19 +118,20 @@ void loop()
  int eq_b = ((button_x_value)&&(!button_y_value)&&(!button_z_value))||((!button_x_value)&&(button_y_value))||((!button_x_value)&&(!button_y_value)&&(button_w_value))||((!button_x_value)&&(!button_y_value)&&(button_z_value));
   digitalWrite(light_b,eq_b);
 
-  
+ 
  //c
  int eq_c = ((!button_x_value)&&(button_y_value)&&(!button_z_value))||((button_x_value)&&(!button_y_value)&&(!button_z_value))||((!button_x_value)&&(!button_y_value)&&(button_z_value))||((!button_x_value)&&(button_y_value)&&(button_w_value));
  digitalWrite(light_c,eq_c);
 
  //d
  int eq_d = (!button_x_value)&&(button_y_value)&&(!button_z_value)||(button_x_value)&&(!button_y_value)&&(!button_z_value)||(!button_x_value)&&(!button_y_value)&&(button_z_value)&&(button_w_value);
- digitalWrite(light_d,eq_d); 
+ digitalWrite(light_d,eq_d);
 
- //e 
+ //e
  int eq_e = (!button_x_value)&&(button_y_value)&&(!button_z_value)||(button_x_value)&&(!button_y_value)&&(!button_z_value)&&(button_w_value);
- digitalWrite(light_e,eq_e); 
+ digitalWrite(light_e,eq_e);
  
+ //The Serial.print codes are used for checking if our codes are working
  //f                    
  int eq_f = (!button_x_value)&&(button_y_value)&&(!button_z_value)&&(button_w_value);
  digitalWrite(light_f,eq_f);  
@@ -135,8 +140,9 @@ void loop()
  Serial.print(eq_c);
  Serial.print(eq_d);
  Serial.print(eq_e);
- Serial.println(eq_f); 
+ Serial.println(eq_f);
 }
+
 ```
 2st development story: After finishing writing the codes, we started to assemble our product based on the model we created on Tinkercard (the image of it is shown below). During the process, we met difficulties in connecting the LEDs with the resistors because we didn't use soldering devices. However, we were able to overcome this by bending the LEDs and resistors' knees and stick them with tape. Our assembled or final product is shown in Criteria D below.
 ### Project circuit and code
