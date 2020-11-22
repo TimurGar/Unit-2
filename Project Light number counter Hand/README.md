@@ -51,10 +51,8 @@ Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 
 ### Design of a palm(circles represent LEDs)
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
+Fig.4 The sketch of a palm that we used to cut the palm on the laser cutter
 
-
-### A table showing the operations of the buttons and number 0-9
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
 
 
 ## Criteria C: Development
@@ -62,17 +60,18 @@ Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 After we thought over of all the aspects of our idea we started realising it.
 First, we created a truth table for the number counter.
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3807.jpg" height="700">
-Fig.4 Truth tables of our program
+Fig.5 Truth tables of our program
 
 ### K-maps
 Then based on the truth table, we created K-maps for each LEDs(A-E).
 <img src="New%20IMG_3808.JPG" height="700">
-Fig.5 K-maps of our program
+Fig.6 K-maps of our program
 
 ### Project circuit and code
 After that, we used equations that we got from K-maps to create a program for our project.
 To test if our program is working we assempled a circuit in TinkerCad and run the program there.
 <img src="Screen%20Shot%202020-11-09%20at%2019.09.09.png" weight="800">
+Fig.7 the final circuit for our project
 
 ```.py
 unsigned long last_time;
@@ -144,6 +143,9 @@ void loop()
  Serial.println(eq_f); 
 }
 ```
+### A table showing the operations of the buttons and number 0-9
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
+Fig. 8
 # Criteria E: Evaluation
 | Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
