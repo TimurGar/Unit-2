@@ -68,7 +68,7 @@ Fig.4 The sketch of a palm that we used to cut the palm on the laser cutter
 
 ## Criteria C: Development
 
-1st development story: -First, we, Timur and I, tried to codes right after we finished drawing the product's sketches, flow diagram, truth table. However, we realized that we will need to write 9 if statements for the codes to work. So we then draw the K-maps to generate our product's system's boolean logic. We were then able to use the boolean logic to write our codes with 6 boolean statements. (not significantly less but lesser codes are alway better :) Our codes are shown below:
+1st development story: -First, we tried to codes right after we finished drawing the product's sketches, flow diagram, truth table. However, we realized that we will need to write 9 if statements for the codes to work. So we then draw the K-maps to generate our product's system's boolean logic. We were then able to use the boolean logic to write our codes with 6 boolean statements. (not significantly less but lesser codes are always better :) Our codes are shown below:
 ```.py
 
 int button_x_port = 4; 
