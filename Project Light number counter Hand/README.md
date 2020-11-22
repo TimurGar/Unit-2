@@ -49,13 +49,6 @@ Fig.2 System digram of our program
 ![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Project%20Light_Number_Counter_Kien%20and%20Timur%20(1)%20(1).png)
 Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 
-### Design of a palm(circles represent LEDs)
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
-Fig.4 The sketch of a palm that we used to cut the palm on the laser cutter
-
-
-
-## Criteria C: Development
 ### Truth table
 After we thought over of all the aspects of our idea we started realising it.
 First, we created a truth table for the number counter.
@@ -67,14 +60,16 @@ Then based on the truth table, we created K-maps for each LEDs(A-E).
 <img src="New%20IMG_3808.JPG" height="700">
 Fig.6 K-maps of our program
 
-### Project circuit and code
-After that, we used equations that we got from K-maps to create a program for our project.
-To test if our program is working we assempled a circuit in TinkerCad and run the program there.
-<img src="Screen%20Shot%202020-11-09%20at%2019.09.09.png" weight="800">
-Fig.7 the final circuit for our project
+### Design of a palm(circles represent LEDs)
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
+Fig.4 The sketch of a palm that we used to cut the palm on the laser cutter
 
+
+
+## Criteria C: Development
+
+1st development story: -First, we, Timur and I, tried to codes right after we finished drawing the product's sketches, flow diagram, truth table. However, we realized that we will need to write 9 if statements for the codes to work. So we then draw the K-maps to generate our product's system's boolean logic. We were then able to use the boolean logic to write our codes with 6 boolean statements. (not significantly less but lesser codes are alway better :) Our codes are shown below:
 ```.py
-unsigned long last_time;
 
 int button_x_port = 4; 
 int button_y_port = 5; 
@@ -143,21 +138,14 @@ void loop()
  Serial.println(eq_f); 
 }
 ```
-### A table showing the operations of the buttons and number 0-9
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
-Fig.8 Instruction table showing customer how the LEDs are shown and which buttons to press to show them.
+2st development story: After finishing writing the codes, we started to assemble our product based on the model we created on Tinkercard (the image of it is shown below). During the process, we met difficulties in connecting the LEDs with the resistors because we didn't use soldering devices. However, we were able to overcome this by bending the LEDs and resistors' knees and stick them with tape. Our assembled or final product is shown in Criteria D below.
+### Project circuit and code
+After that, we used equations that we got from K-maps to create a program for our project.
+To test if our program is working we assempled a circuit in TinkerCad and run the program there.
+<img src="Screen%20Shot%202020-11-09%20at%2019.09.09.png" weight="800">
+Fig.7 the final circuit for our project
 
-# Criteria E: Evaluation
-
-
-| Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
-|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| Criteria 1: See if our product count number 0-9.                                              | If you pressed the button's combination for a number,  the display shows a pattern for that number  (customers can do this while looking at our  "Button Operation Table") Ex: Click no buttons-> no light turned on (value=0); Click the green button-> turn on 1 light (value=1); Click the red button-> turn on 2 lights (value=2)... |   Yes            |
-| Criteria 2: See if we provided you with a table showing LED  sequences for each number 0-9    | You are able to see a table showing patterns of LEDs for each number 0-9 that is  presented.                                                                                                                                       |       Yes        |
-| Criteria 3: See if we provided you with a table showing buttons sequences for each number 0-9 | You are able to see a table showing patterns of buttons (4 buttons with 4 colors: yellow, blue, red, green) for each number 0-9 that is presented.                                                                                                                                     |       Yes        |
-| Criteria 4: Check if our product uses maximum of 7 LEDs and 4 buttons.                        | You will see that our product uses no more than 7 LEDs  and 4 buttons.                                                                                                                                                             |   Yes            |
-| Criteria 5: See if our product contains a wood-body.                                          | You will see that our product's body is created from wood.                                                                                                                                                                         |    Yes           |
-
+# Criteria D: Functionality 
 ### Finished product
 Next, we laser cutted the palm and assembled everthying.
 and this is our final product:
@@ -174,4 +162,22 @@ https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%
 
 Dark time test:
 https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3855.MOV
+### A table showing the operations of the buttons and number 0-9
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
+Fig.8 Instruction table showing customer how the LEDs are shown and which buttons to press to show them.
+
+
+
+# Criteria E: Evaluation
+
+
+| Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| Criteria 1: See if our product count number 0-9.                                              | If you pressed the button's combination for a number,  the display shows a pattern for that number  (customers can do this while looking at our  "Button Operation Table") Ex: Click no buttons-> no light turned on (value=0); Click the green button-> turn on 1 light (value=1); Click the red button-> turn on 2 lights (value=2)... |   Yes            |
+| Criteria 2: See if we provided you with a table showing LED  sequences for each number 0-9    | You are able to see a table showing patterns of LEDs for each number 0-9 that is  presented.                                                                                                                                       |       Yes        |
+| Criteria 3: See if we provided you with a table showing buttons sequences for each number 0-9 | You are able to see a table showing patterns of buttons (4 buttons with 4 colors: yellow, blue, red, green) for each number 0-9 that is presented.                                                                                                                                     |       Yes        |
+| Criteria 4: Check if our product uses maximum of 7 LEDs and 4 buttons.                        | You will see that our product uses no more than 7 LEDs  and 4 buttons.                                                                                                                                                             |   Yes            |
+| Criteria 5: See if our product contains a wood-body.                                          | You will see that our product's body is created from wood.                                                                                                                                                                         |    Yes           |
+
+
 
