@@ -37,12 +37,15 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 ## Criteria B: Design
 ### The sketches of our idea:
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803_new.jpeg" alt = "The_sketches_of_our_idea" width="700">
+Fig.1 Our sketch for how the buttons will turn on the lights and values associate with the lights
 
 ### System diagram
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3827.JPG" alt = "System_diagram" width="700">
+Fig.2 System digram of our program
 
 ### Flow diagram
 ![Photo](https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Project%20Light_Number_Counter_Kien%20and%20Timur%20(1)%20(1).png)
+Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 
 ### Design of a palm(circles represent LEDs)
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
@@ -64,10 +67,12 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 After we thought over of all the aspects of our idea we started realising it.
 First, we created a truth table for the number counter.
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3807.jpg" height="700">
+Fig.4 Truth tables of our program
 
 ### K-maps
 Then based on the truth table, we created K-maps for each LEDs(A-E).
 <img src="New%20IMG_3808.JPG" height="700">
+Fig.5 K-maps of our program
 
 ### Project circuit and code
 After that, we used equations that we got from K-maps to create a program for our project.
