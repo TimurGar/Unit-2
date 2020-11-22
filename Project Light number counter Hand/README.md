@@ -22,7 +22,7 @@ Our tasks for this project are following:
 * We can also use laser cutter to create a body for our project
 
 ### The sketches of our idea:
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803_new.jpeg" alt = "The_sketches_of_our_idea" width="700">
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803_new.jpeg" alt = "The_sketches_of_our_idea" >
 Fig.1 Our sketch for how the buttons will turn on the lights and values associate with the lights
 
 ### Justification of the solution
@@ -42,7 +42,7 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 
 
 ### System diagram
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3827.JPG" alt = "System_diagram" width="700">
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/System%20diagram%20Hand%20project.png" alt = "System_diagram" width="700">
 Fig.2 System digram of our program
 
 ### Flow diagram
