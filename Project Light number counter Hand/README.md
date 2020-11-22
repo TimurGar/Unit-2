@@ -21,6 +21,10 @@ Our tasks for this project are following:
 * Create K-maps
 * We can also use laser cutter to create a body for our project
 
+### The sketches of our idea:
+<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803_new.jpeg" alt = "The_sketches_of_our_idea" width="700">
+Fig.1 Our sketch for how the buttons will turn on the lights and values associate with the lights
+
 ### Justification of the solution
 
 We want to create a number counter that is looks like a palm. We will use 6 LEDs, each LED on each finger and the last one in the center of a palm. 
@@ -35,9 +39,7 @@ To conrol it, we will use 4 buttons and we are going to use Binary system to cou
 1. The main body of the project is made out of wood with the help of laser cutter.
 
 ## Criteria B: Design
-### The sketches of our idea:
-<img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3803_new.jpeg" alt = "The_sketches_of_our_idea" width="700">
-Fig.1 Our sketch for how the buttons will turn on the lights and values associate with the lights
+
 
 ### System diagram
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/IMG_3827.JPG" alt = "System_diagram" width="700">
@@ -50,14 +52,7 @@ Fig.3 Flow diagram of how the action of pushing buttons will turn on the light
 ### Design of a palm(circles represent LEDs)
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Screen%20Shot%202020-11-09%20at%2014.42.58.png" height="700">
 
-### Test plan
-| Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
-|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| Criteria 1: See if our product count number 0-9.                                              | If you pressed the button's combination for a number,  the display shows a pattern for that number  (customers can do this while looking at our  "Button Operation Table") Ex: Click no buttons-> no light turned on (value=0); Click the green button-> turn on 1 light (value=1); Click the red button-> turn on 2 lights (value=2)... |   Yes            |
-| Criteria 2: See if we provided you with a table showing LED  sequences for each number 0-9    | You are able to see a table showing patterns of LEDs for each number 0-9 that is  presented.                                                                                                                                       |       Yes        |
-| Criteria 3: See if we provided you with a table showing buttons sequences for each number 0-9 | You are able to see a table showing patterns of buttons (4 buttons with 4 colors: yellow, blue, red, green) for each number 0-9 that is presented.                                                                                                                                     |       Yes        |
-| Criteria 4: Check if our product uses maximum of 7 LEDs and 4 buttons.                        | You will see that our product uses no more than 7 LEDs  and 4 buttons.                                                                                                                                                             |   Yes            |
-| Criteria 5: See if our product contains a wood-body.                                          | You will see that our product's body is created from wood.                                                                                                                                                                         |    Yes           |
+
 ### A table showing the operations of the buttons and number 0-9
 <img src="https://github.com/TimurGar/Unit-2/blob/main/Project%20Light%20number%20counter%20Hand/Number_counter_table.png" height="700">
 
@@ -149,6 +144,15 @@ void loop()
  Serial.println(eq_f); 
 }
 ```
+# Criteria E: Evaluation
+| Test                                                                                          | Expected Outcome                                                                                                                                                                                                                   | Met?          |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| Criteria 1: See if our product count number 0-9.                                              | If you pressed the button's combination for a number,  the display shows a pattern for that number  (customers can do this while looking at our  "Button Operation Table") Ex: Click no buttons-> no light turned on (value=0); Click the green button-> turn on 1 light (value=1); Click the red button-> turn on 2 lights (value=2)... |   Yes            |
+| Criteria 2: See if we provided you with a table showing LED  sequences for each number 0-9    | You are able to see a table showing patterns of LEDs for each number 0-9 that is  presented.                                                                                                                                       |       Yes        |
+| Criteria 3: See if we provided you with a table showing buttons sequences for each number 0-9 | You are able to see a table showing patterns of buttons (4 buttons with 4 colors: yellow, blue, red, green) for each number 0-9 that is presented.                                                                                                                                     |       Yes        |
+| Criteria 4: Check if our product uses maximum of 7 LEDs and 4 buttons.                        | You will see that our product uses no more than 7 LEDs  and 4 buttons.                                                                                                                                                             |   Yes            |
+| Criteria 5: See if our product contains a wood-body.                                          | You will see that our product's body is created from wood.                                                                                                                                                                         |    Yes           |
+
 ### Finished product
 Next, we laser cutted the palm and assembled everthying.
 and this is our final product:
