@@ -3,6 +3,8 @@
 
 My code:
 ```.py
+# Advent code day 1
+# My solution:
 
   database = open("Advent code 1_input.txt","r").read().splitlines()
   int_db =[]
