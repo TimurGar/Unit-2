@@ -1,9 +1,9 @@
 # Astro Communication System
 
-| Criteria 1: It should contains at most 2 buttons and 1 LED.                                               | You are able to see that our system contains at most 2 buttons and 1 button.                                       |   |   |   |
-|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---|---|---|
-| Criteria 2: It should let the user type at least 10 words in 1 minute                                     | You are able to type at least 10 words in 1 minute.                                                                |   |   |   |
-| Criteria 3: It should provide an instruction set.                                                         | You are able to see how to use our system with  different button combinations.                                     |   |   |   |
-| Criteria 4: It should output the user's message on the LCD and through with light(Using Morse code)       | You are able to see how your message is  outputed on the LCD and the light is blinking  according to a Morse code. |   |   |   |
-| Criteria 5: The user should be able to input alphabetic characters and numbers(0-9).                      | You are able to input alphabetic characters  and numbers(0-9) into the system.                                     |   |   |   |
-| Criteria 6: It should let the user to use commands such as send message, delete, space, repeat, confirm.  | You are able to use the following commands: send a message, delete, space, repeat, confirm.                        |   |   |   |
+| Criteria 1: It should contains at most 2 buttons and 1 LED.                                               | You are able to see that our system contains at most 2 buttons and 1 button.                                       |
+|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Criteria 2: It should let the user type at least 10 words in 1 minute                                     | You are able to type at least 10 words in 1 minute.                                                                |
+| Criteria 3: It should provide an instruction set.                                                         | You are able to see how to use our system with  different button combinations.                                     |
+| Criteria 4: It should output the user's message on the LCD and through with light(Using Morse code)       | You are able to see how your message is  outputed on the LCD and the light is blinking  according to a Morse code. |
+| Criteria 5: The user should be able to input alphabetic characters and numbers(0-9).                      | You are able to input alphabetic characters  and numbers(0-9) into the system.                                     |
+| Criteria 6: It should let the user to use commands such as send message, delete, space, repeat, confirm.  | You are able to use the following commands: send a message, delete, space, repeat, confirm.                        |
