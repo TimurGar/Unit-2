@@ -633,7 +633,7 @@ void send(){
 ```
 2st development story:-Creating this system for us were overall a very challenging experience for all members in our team. We were very new to coding in C++ and doing things related to Arduino, especially the LCD. Moreover,
 
-![](https://github.com/BrightChanges/Unit-2/blob/main/Astro_arrays.png)
+![](https://github.com/TimurGar/Unit-2/blob/main/Astro%20Communication%20System/Circuit%20diagram.png)
 Fig.3 Our system model on TinkerCad
 
 ## Criteria D: Functionality
