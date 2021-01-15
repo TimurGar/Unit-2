@@ -14,7 +14,7 @@ Fig.1 Our sketch for how our system looks like
 
 ## Criteria B: Design
 #### System Diagram
-![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7291.JPG)
+![](https://github.com/TimurGar/Unit-2/blob/main/Astro%20Communication%20System/System%20diagram.png)
 Fig.2 The system diagram of our program
 
 #### Flow Diagram
